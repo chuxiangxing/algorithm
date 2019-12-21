@@ -10,10 +10,10 @@ package com.cxx.data.structure;
 public class Josephu {
     public static void main(String[] args) {
         CircleLinkedList cl = new CircleLinkedList();
-        cl.addChild(25);
+        cl.addChild(125);
         cl.show();
         System.out.println("------------------");
-        cl.skip(1, 2);
+        cl.skip(10, 20);
     }
 
 }
